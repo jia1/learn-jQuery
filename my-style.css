@@ -1,0 +1,29 @@
+﻿body {
+  color: black;
+}
+
+div {
+  color: black;
+}
+
+.class {
+  color: black;
+}
+
+#id {
+  color: black;
+}
+
+.ninja {
+  color: purple;
+  display: none;
+}
+
+#nyan {
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 2.5%;
+  position: absolute;
+  right: 100%;
+  top: 40%;
+  width: 25%;
+}
