@@ -24,6 +24,20 @@ div {
   padding: 2.5%;
   position: absolute;
   right: 100%;
-  top: 40%;
   width: 25%;
+}
+
+.dom {
+  font-family: Impact;
+}
+
+.before-after {
+  background-color: silver;
+}
+
+#to-bind {
+  background-color: lightblue;
+  font-family: Verdana; /* Check line 21 of my-query.js */
+  padding: 5%;
+  text-align: center;
 }

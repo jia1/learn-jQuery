@@ -9,12 +9,13 @@
 <body>
     <div class="class">Hello, World!</div>
     <div id="id"></div>
-    <ol>
+    <ol class="ordered-list">
       <li class="word">Word</li>
       <li class="word">Word</li>
     </ol>
+    <button onClick="appendToList();">Append Items</button>
     <p>
-      <a href="#" target="_blank">Link</a>
+      <a href="#" id="link" target="_blank">Link</a>
       <a href="#" target="_self">Link</a>
     </p>
     <div id="nyan">
@@ -35,6 +36,17 @@
       <button onClick="$('#nyan').stop();">Pause Me</button>
       <button onClick="$('#nyan').stop(true, true);">Rush Me</button>
       <button onClick="nyan();">Start Me</button>
+    </p>
+    <div class="dom">
+      <ul>
+        <li><div class="text"></div></li>
+        <li><input type="text" class="value" /></li>
+        <li><div class="mark"></div></li>
+      </ul>
+    </div>
+    <div class="before-after" onClick="before_after();">Click Me!</div>
+    <p id="to-bind">
+      I am bound to a function. Click Me.
     </p>
     <script src="jquery-1.12.4.min.js" type="text/javascript"></script>
     <script src="my-query.js" type="text/javascript"></script>
